@@ -10,7 +10,7 @@ export function HeroBackgroundCarousel() {
   return (
     <div
       aria-hidden="true"
-      className="pointer-events-none absolute inset-y-0 left-0 right-0 z-0 overflow-hidden sm:left-[8%] lg:left-[18%]"
+      className="pointer-events-none absolute inset-0 z-0 overflow-hidden"
     >
       {slides.map((slide, index) => (
         <div
