@@ -70,7 +70,7 @@ export default async function HomePage({ searchParams }: HomePageProps) {
       />
       <JsonLd data={buildFaqJsonLd(homePage.faq)} />
 
-      <section className="relative z-10 isolate overflow-hidden pb-20 pt-14 sm:pb-24 sm:pt-20">
+      <section className="home-hero-lock relative z-10 isolate overflow-hidden pb-20 pt-14 sm:pb-24 sm:pt-20">
         <HeroBackgroundCarousel />
         <div className="section-shell relative z-10 grid gap-10 lg:grid-cols-[1.08fr_0.92fr] lg:items-center">
           <div className="relative">

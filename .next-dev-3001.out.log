@@ -1,0 +1,11 @@
+
+> riviera@0.1.0 dev
+> next dev --port 3001
+
+▲ Next.js 16.2.3 (Turbopack)
+- Local:         http://localhost:3001
+- Network:       http://172.18.112.1:3001
+✓ Ready in 14.9s
+Creating turbopack project { dir: 'C:\\Users\\pcben\\Desktop\\riviera', testMode: true }
+
+[?25h
