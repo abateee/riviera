@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { ShieldCheck } from "lucide-react";
 
 import type { Service, ServiceArea, SiteSettings } from "@/lib/content/types";
 
@@ -7,6 +8,17 @@ type SiteFooterProps = {
   services: Service[];
   serviceAreas: ServiceArea[];
 };
+
+const certifications = [
+  {
+    title: "Croix-Rouge française compétence",
+    description: "Référence de formation et de compétences professionnelles.",
+  },
+  {
+    title: "Agrément Qualité",
+    description: "Délivré par la Préfecture des Alpes-Maritimes.",
+  },
+];
 
 export function SiteFooter({
   settings,
@@ -34,6 +46,34 @@ export function SiteFooter({
             >
               Nous contacter
             </Link>
+          </div>
+
+          <div className="mt-8">
+            <p className="text-sm font-semibold uppercase tracking-[0.24em] text-white/70">
+              Certifications
+            </p>
+            <div className="mt-5 grid gap-3">
+              {certifications.map((certification) => (
+                <div
+                  key={certification.title}
+                  className="rounded-[1.5rem] border border-white/10 bg-white/5 p-4"
+                >
+                  <div className="flex items-start gap-3">
+                    <div className="flex size-10 shrink-0 items-center justify-center rounded-2xl bg-white/10 text-brand-200">
+                      <ShieldCheck className="size-5" />
+                    </div>
+                    <div>
+                      <p className="text-sm font-semibold text-white">
+                        {certification.title}
+                      </p>
+                      <p className="mt-1 text-sm leading-6 text-slate-300">
+                        {certification.description}
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
 
