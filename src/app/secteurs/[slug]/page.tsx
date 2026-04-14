@@ -95,6 +95,10 @@ export default async function SectorPage({
             <p className="mt-6 max-w-3xl text-lg leading-8 text-slate-600">
               {area.intro}
             </p>
+            <p className="mt-4 max-w-3xl text-sm leading-7 text-slate-600">
+              Sur demande, nous pouvons aussi étudier l&apos;accompagnement de
+              personnes en situation de handicap dans ce secteur.
+            </p>
             <div className="mt-8 flex flex-wrap gap-3">
               <a
                 href={settings.phoneHref}

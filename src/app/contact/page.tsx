@@ -36,7 +36,7 @@ export default async function ContactPage({ searchParams }: ContactPageProps) {
           <SectionHeading
             eyebrow="Contact"
             title="Le plus simple est de nous appeler directement."
-            description="Si vous préférez laisser une demande, le formulaire ci-contre reste disponible pour organiser un premier échange."
+            description="Si vous préférez laisser une demande, le formulaire ci-contre reste disponible pour organiser un premier échange. Sur demande, nous accompagnons aussi les personnes en situation de handicap."
           />
           <div className="mt-8 rounded-[2rem] bg-brand-800 p-8 text-white">
             <div className="flex items-center gap-3 text-brand-200">

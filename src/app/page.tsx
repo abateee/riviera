@@ -83,6 +83,10 @@ export default async function HomePage({ searchParams }: HomePageProps) {
             <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-600 sm:text-xl">
               {homePage.heroSubtitle}
             </p>
+            <p className="mt-4 max-w-2xl text-sm leading-7 text-slate-600 sm:text-base">
+              Sur demande, nous pouvons aussi étudier l&apos;accompagnement de
+              personnes en situation de handicap.
+            </p>
 
             <div className="mt-8 flex flex-wrap gap-3">
               {homePage.heroBullets.map((bullet) => (

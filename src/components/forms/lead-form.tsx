@@ -93,6 +93,10 @@ export function LeadForm({
           <h3 className="mt-2 font-heading text-3xl text-slate-950">
             Parler à Riviera Compagnie
           </h3>
+          <p className="mt-2 max-w-md text-sm leading-6 text-slate-600">
+            Sur demande, nous accompagnons aussi les personnes en situation de
+            handicap. Indiquez-le simplement dans votre message.
+          </p>
         </div>
         <a
           href={settings.phoneHref}

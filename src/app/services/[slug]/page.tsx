@@ -92,6 +92,11 @@ export default async function ServicePage({
             <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-600">
               {service.excerpt}
             </p>
+            <p className="mt-4 max-w-2xl text-sm leading-7 text-slate-600">
+              Sur demande, nous pouvons aussi étudier l&apos;accompagnement de
+              personnes en situation de handicap selon le contexte et les
+              besoins.
+            </p>
             <div className="mt-8 flex flex-wrap gap-3">
               <a
                 href={settings.phoneHref}

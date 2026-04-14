@@ -62,6 +62,7 @@ export const FALLBACK_HOME_PAGE: HomePage = {
     "Réponse rapide par téléphone",
     "Interventions à Nice et dans les environs",
     "Formules ponctuelles ou régulières",
+    "Accompagnement possible sur demande pour les personnes en situation de handicap",
   ],
   reassurance: [
     {
@@ -103,6 +104,10 @@ export const FALLBACK_HOME_PAGE: HomePage = {
     faq(
       "Peut-on demander une aide ponctuelle ?",
       "Oui. Nous pouvons mettre en place une aide ponctuelle, un relais temporaire ou un accompagnement plus régulier.",
+    ),
+    faq(
+      "Accompagnez-vous aussi des personnes en situation de handicap ?",
+      "Oui, sur demande. Le plus simple est de nous appeler pour préciser la situation, le besoin et le cadre d'intervention souhaité.",
     ),
     faq(
       "Comment se passe la première prise de contact ?",
