@@ -1,6 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
 
+import competenceOne from "@/competence1.jpg";
+import competenceTwo from "@/competence2.png";
+
 import type { Service, ServiceArea, SiteSettings } from "@/lib/content/types";
 
 type SiteFooterProps = {
@@ -13,18 +16,14 @@ const certifications = [
   {
     title: "Croix-Rouge française compétence",
     description: "Référence de formation et de compétences professionnelles.",
-    imageSrc: "/certification-croix-rouge-competence.svg",
+    image: competenceOne,
     imageAlt: "Certification Croix-Rouge française compétence",
-    imageWidth: 500,
-    imageHeight: 500,
   },
   {
     title: "Agrément Qualité",
     description: "Délivré par la Préfecture des Alpes-Maritimes.",
-    imageSrc: "/certification-agrement-qualite.svg",
+    image: competenceTwo,
     imageAlt: "Agrément Qualité délivré par la Préfecture des Alpes-Maritimes",
-    imageWidth: 760,
-    imageHeight: 460,
   },
 ];
 
@@ -66,22 +65,23 @@ export function SiteFooter({
                   key={certification.title}
                   className="rounded-[1.5rem] border border-white/10 bg-white/5 p-4"
                 >
-                  <div className="overflow-hidden rounded-[1.25rem] bg-white/95 p-3 shadow-[0_18px_40px_rgba(7,18,12,0.12)]">
-                    <Image
-                      src={certification.imageSrc}
-                      alt={certification.imageAlt}
-                      width={certification.imageWidth}
-                      height={certification.imageHeight}
-                      className="h-auto w-full rounded-[1rem] object-contain"
-                    />
-                  </div>
-                  <div className="mt-4">
-                    <p className="text-sm font-semibold text-white">
-                      {certification.title}
-                    </p>
-                    <p className="mt-1 text-sm leading-6 text-slate-300">
-                      {certification.description}
-                    </p>
+                  <div className="flex items-start gap-4">
+                    <div className="w-24 shrink-0 overflow-hidden rounded-[1rem] bg-white p-2 shadow-[0_18px_40px_rgba(7,18,12,0.12)] sm:w-28">
+                      <Image
+                        src={certification.image}
+                        alt={certification.imageAlt}
+                        className="h-auto w-full object-contain"
+                        sizes="(min-width: 640px) 112px, 96px"
+                      />
+                    </div>
+                    <div>
+                      <p className="text-sm font-semibold text-white">
+                        {certification.title}
+                      </p>
+                      <p className="mt-1 text-sm leading-6 text-slate-300">
+                        {certification.description}
+                      </p>
+                    </div>
                   </div>
                 </div>
               ))}
