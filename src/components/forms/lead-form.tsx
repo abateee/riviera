@@ -95,7 +95,8 @@ export function LeadForm({
           </h3>
           <p className="mt-2 max-w-md text-sm leading-6 text-slate-600">
             Sur demande, nous accompagnons aussi les personnes en situation de
-            handicap. Indiquez-le simplement dans votre message.
+            handicap. Tous nos intervenants sont diplômés d&apos;État. Indiquez-le
+            simplement dans votre message.
           </p>
         </div>
         <a

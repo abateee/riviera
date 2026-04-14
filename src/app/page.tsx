@@ -85,7 +85,8 @@ export default async function HomePage({ searchParams }: HomePageProps) {
             </p>
             <p className="mt-4 max-w-2xl text-sm leading-7 text-slate-600 sm:text-base">
               Sur demande, nous pouvons aussi étudier l&apos;accompagnement de
-              personnes en situation de handicap.
+              personnes en situation de handicap. Tous nos intervenants sont
+              diplômés d&apos;État.
             </p>
 
             <div className="mt-8 flex flex-wrap gap-3">

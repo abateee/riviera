@@ -63,6 +63,7 @@ export const FALLBACK_HOME_PAGE: HomePage = {
     "Interventions à Nice et dans les environs",
     "Formules ponctuelles ou régulières",
     "Accompagnement possible sur demande pour les personnes en situation de handicap",
+    "Intervenants diplômés d'État",
   ],
   reassurance: [
     {
@@ -77,8 +78,8 @@ export const FALLBACK_HOME_PAGE: HomePage = {
     },
     {
       _key: "intervenants-selectionnes",
-      title: "Intervenants sélectionnés",
-      text: "Savoir-être, ponctualité, discrétion et attention portée aux habitudes de la personne accompagnée.",
+      title: "Intervenants diplômés d'État",
+      text: "Tous nos intervenants sont diplômés d'État, avec une attention portée au savoir-être, à la discrétion et aux habitudes de la personne accompagnée.",
     },
     {
       _key: "ancrage-local",
@@ -108,6 +109,10 @@ export const FALLBACK_HOME_PAGE: HomePage = {
     faq(
       "Accompagnez-vous aussi des personnes en situation de handicap ?",
       "Oui, sur demande. Le plus simple est de nous appeler pour préciser la situation, le besoin et le cadre d'intervention souhaité.",
+    ),
+    faq(
+      "Vos intervenants sont-ils diplômés d'État ?",
+      "Oui. Tous nos intervenants sont diplômés d'État.",
     ),
     faq(
       "Comment se passe la première prise de contact ?",

@@ -97,7 +97,8 @@ export default async function SectorPage({
             </p>
             <p className="mt-4 max-w-3xl text-sm leading-7 text-slate-600">
               Sur demande, nous pouvons aussi étudier l&apos;accompagnement de
-              personnes en situation de handicap dans ce secteur.
+              personnes en situation de handicap dans ce secteur. Tous nos
+              intervenants sont diplômés d&apos;État.
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
               <a

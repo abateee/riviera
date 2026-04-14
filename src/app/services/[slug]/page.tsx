@@ -95,7 +95,7 @@ export default async function ServicePage({
             <p className="mt-4 max-w-2xl text-sm leading-7 text-slate-600">
               Sur demande, nous pouvons aussi étudier l&apos;accompagnement de
               personnes en situation de handicap selon le contexte et les
-              besoins.
+              besoins. Tous nos intervenants sont diplômés d&apos;État.
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
               <a

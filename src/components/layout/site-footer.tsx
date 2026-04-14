@@ -59,6 +59,10 @@ export function SiteFooter({
             <p className="text-sm font-semibold uppercase tracking-[0.24em] text-white/70">
               Certifications
             </p>
+            <p className="mt-3 max-w-xl text-sm leading-7 text-slate-300">
+              Tous nos intervenants sont diplômés d&apos;État, avec des
+              compétences professionnelles clairement identifiées.
+            </p>
             <div className="mt-5 grid gap-3">
               {certifications.map((certification) => (
                 <div
