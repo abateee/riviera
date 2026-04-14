@@ -14,7 +14,7 @@ export function SiteFooter({
   serviceAreas,
 }: SiteFooterProps) {
   return (
-    <footer className="border-t border-slate-200 bg-slate-950 text-slate-200">
+    <footer className="border-t border-slate-200 bg-brand-800 text-slate-200">
       <div className="mx-auto grid w-[min(1120px,calc(100%-1.5rem))] gap-10 py-14 md:grid-cols-[1.2fr,0.8fr,0.8fr]">
         <div>
           <p className="font-heading text-4xl text-white">{settings.title}</p>

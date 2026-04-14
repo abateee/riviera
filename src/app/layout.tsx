@@ -56,7 +56,7 @@ export default async function RootLayout({
     >
       <body className="min-h-screen bg-sand-50 font-sans text-slate-900 antialiased">
         <div className="relative min-h-screen overflow-x-hidden">
-          <div className="pointer-events-none absolute inset-x-0 top-0 h-[34rem] bg-[radial-gradient(circle_at_top_right,rgba(42,157,143,0.18),transparent_45%),radial-gradient(circle_at_top_left,rgba(196,138,94,0.2),transparent_35%)]" />
+          <div className="pointer-events-none absolute inset-x-0 top-0 h-[34rem] bg-[radial-gradient(circle_at_top_right,rgba(130,157,127,0.24),transparent_45%),radial-gradient(circle_at_top_left,rgba(239,230,216,0.7),transparent_34%)]" />
           <SiteHeader settings={settings} />
           <main>{children}</main>
           <SiteFooter

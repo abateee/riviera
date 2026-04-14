@@ -38,7 +38,7 @@ export default async function ContactPage({ searchParams }: ContactPageProps) {
             title="Le plus simple est de nous appeler directement."
             description="Si vous préférez laisser une demande, le formulaire ci-contre reste disponible pour organiser un premier échange."
           />
-          <div className="mt-8 rounded-[2rem] bg-slate-950 p-8 text-white">
+          <div className="mt-8 rounded-[2rem] bg-brand-800 p-8 text-white">
             <div className="flex items-center gap-3 text-brand-200">
               <PhoneCall className="size-5" />
               <p className="text-sm font-semibold uppercase tracking-[0.22em]">

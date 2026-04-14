@@ -31,7 +31,7 @@ export function SiteHeader({ settings }: SiteHeaderProps) {
           </Link>
           <a
             href={settings.phoneHref}
-            className="rounded-full bg-slate-950 px-4 py-2 text-white transition hover:bg-brand-700"
+            className="rounded-full bg-brand-800 px-4 py-2 text-white transition hover:bg-brand-700"
           >
             {settings.phoneDisplay}
           </a>

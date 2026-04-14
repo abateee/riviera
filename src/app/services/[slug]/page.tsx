@@ -95,7 +95,7 @@ export default async function ServicePage({
             <div className="mt-8 flex flex-wrap gap-3">
               <a
                 href={settings.phoneHref}
-                className="inline-flex items-center gap-3 rounded-full bg-slate-950 px-5 py-3 text-sm font-semibold text-white transition hover:bg-brand-700"
+                className="inline-flex items-center gap-3 rounded-full bg-brand-800 px-5 py-3 text-sm font-semibold text-white transition hover:bg-brand-700"
               >
                 <PhoneCall className="size-4" />
                 Appeler {settings.phoneDisplay}

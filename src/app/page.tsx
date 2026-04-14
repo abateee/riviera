@@ -86,7 +86,7 @@ export default async function HomePage({ searchParams }: HomePageProps) {
               {homePage.heroBullets.map((bullet) => (
                 <span
                   key={bullet}
-                  className="inline-flex items-center gap-2 rounded-full border border-white/60 bg-white/85 px-4 py-2 text-sm font-medium text-slate-700 shadow-[0_12px_30px_-22px_rgba(15,23,42,0.65)]"
+                  className="inline-flex items-center gap-2 rounded-full border border-white/70 bg-white/85 px-4 py-2 text-sm font-medium text-slate-700 shadow-[0_12px_30px_-22px_rgba(67,87,66,0.28)]"
                 >
                   <ShieldCheck className="size-4 text-brand-600" />
                   {bullet}
@@ -97,7 +97,7 @@ export default async function HomePage({ searchParams }: HomePageProps) {
             <div className="mt-10 flex flex-col gap-4 sm:flex-row">
               <a
                 href={settings.phoneHref}
-                className="inline-flex items-center justify-center gap-3 rounded-full bg-slate-950 px-6 py-4 text-sm font-semibold text-white transition hover:bg-brand-700"
+                className="inline-flex items-center justify-center gap-3 rounded-full bg-brand-800 px-6 py-4 text-sm font-semibold text-white transition hover:bg-brand-700"
               >
                 <PhoneCall className="size-4" />
                 Appeler {settings.phoneDisplay}
@@ -113,7 +113,7 @@ export default async function HomePage({ searchParams }: HomePageProps) {
           </div>
 
           <div className="surface-card relative overflow-hidden rounded-[2rem] p-6 sm:p-8">
-            <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(42,157,143,0.16),transparent_45%),radial-gradient(circle_at_bottom_right,rgba(196,138,94,0.2),transparent_35%)]" />
+            <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(130,157,127,0.22),transparent_45%),radial-gradient(circle_at_bottom_right,rgba(228,215,196,0.52),transparent_34%)]" />
             <div className="relative">
               <p className="text-sm font-semibold uppercase tracking-[0.24em] text-brand-700">
                 Une approche locale
@@ -141,7 +141,7 @@ export default async function HomePage({ searchParams }: HomePageProps) {
                 ))}
               </div>
 
-              <div className="mt-8 rounded-[1.5rem] bg-slate-950 p-6 text-slate-200">
+              <div className="mt-8 rounded-[1.5rem] bg-brand-800 p-6 text-slate-200">
                 <div className="flex items-center gap-3 text-brand-200">
                   <Clock3 className="size-5" />
                   <p className="text-sm font-semibold uppercase tracking-[0.22em]">
@@ -307,7 +307,7 @@ export default async function HomePage({ searchParams }: HomePageProps) {
       </section>
 
       {testimonials.length > 0 ? (
-        <section className="bg-slate-950 py-20 text-white sm:py-24">
+        <section className="bg-brand-800 py-20 text-white sm:py-24">
           <div className="section-shell">
             <SectionHeading
               eyebrow="Témoignages"
@@ -380,7 +380,7 @@ export default async function HomePage({ searchParams }: HomePageProps) {
               title="Le plus rapide reste de nous appeler."
               description={homePage.leadIntro}
             />
-            <div className="mt-8 rounded-[2rem] bg-slate-950 p-8 text-white">
+            <div className="mt-8 rounded-[2rem] bg-brand-800 p-8 text-white">
               <p className="text-sm font-semibold uppercase tracking-[0.22em] text-brand-200">
                 Contact direct
               </p>

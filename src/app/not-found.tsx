@@ -4,7 +4,7 @@ export default function NotFound() {
   return (
     <section className="pb-24 pt-20">
       <div className="section-shell">
-        <div className="mx-auto max-w-2xl rounded-[2rem] bg-white p-10 text-center shadow-[0_25px_70px_-45px_rgba(15,23,42,0.4)]">
+        <div className="mx-auto max-w-2xl rounded-[2rem] bg-white p-10 text-center shadow-[0_25px_70px_-45px_rgba(67,87,66,0.26)]">
           <p className="text-sm font-semibold uppercase tracking-[0.22em] text-brand-600">
             404
           </p>
@@ -17,7 +17,7 @@ export default function NotFound() {
           </p>
           <Link
             href="/"
-            className="mt-8 inline-flex rounded-full bg-slate-950 px-5 py-3 text-sm font-semibold text-white transition hover:bg-brand-700"
+            className="mt-8 inline-flex rounded-full bg-brand-800 px-5 py-3 text-sm font-semibold text-white transition hover:bg-brand-700"
           >
             Retour à l&apos;accueil
           </Link>

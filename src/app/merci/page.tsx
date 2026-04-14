@@ -22,7 +22,7 @@ export default async function ThankYouPage() {
   return (
     <section className="pb-24 pt-20">
       <div className="section-shell">
-        <div className="mx-auto max-w-3xl rounded-[2.5rem] bg-white p-10 text-center shadow-[0_30px_90px_-45px_rgba(15,23,42,0.45)] sm:p-14">
+        <div className="mx-auto max-w-3xl rounded-[2.5rem] bg-white p-10 text-center shadow-[0_30px_90px_-45px_rgba(67,87,66,0.28)] sm:p-14">
           <div className="mx-auto flex size-16 items-center justify-center rounded-full bg-brand-50 text-brand-700">
             <CheckCircle2 className="size-8" />
           </div>
@@ -36,7 +36,7 @@ export default async function ThankYouPage() {
           <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <a
               href={settings.phoneHref}
-              className="inline-flex items-center gap-3 rounded-full bg-slate-950 px-6 py-4 text-sm font-semibold text-white transition hover:bg-brand-700"
+              className="inline-flex items-center gap-3 rounded-full bg-brand-800 px-6 py-4 text-sm font-semibold text-white transition hover:bg-brand-700"
             >
               <PhoneCall className="size-4" />
               {settings.phoneDisplay}

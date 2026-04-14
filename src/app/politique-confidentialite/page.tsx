@@ -21,7 +21,7 @@ export default async function PrivacyPage() {
 
   return (
     <section className="pb-24 pt-16">
-      <div className="section-shell max-w-4xl rounded-[2rem] bg-white p-8 shadow-[0_25px_70px_-45px_rgba(15,23,42,0.4)] sm:p-10">
+      <div className="section-shell max-w-4xl rounded-[2rem] bg-white p-8 shadow-[0_25px_70px_-45px_rgba(67,87,66,0.26)] sm:p-10">
         <h1 className="font-heading text-5xl text-slate-950">
           Politique de confidentialité
         </h1>

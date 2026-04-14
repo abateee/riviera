@@ -1,0 +1,130 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "Riviera Compagnie Nice · aide à domicile" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e6]: Riviera Compagnie
+        - generic [ref=e7]: Nice · aide à domicile
+      - navigation [ref=e8]:
+        - link "Services" [ref=e9] [cursor=pointer]:
+          - /url: /#services
+        - link "Zones desservies" [ref=e10] [cursor=pointer]:
+          - /url: /#secteurs
+        - link "Contact" [ref=e11] [cursor=pointer]:
+          - /url: /contact
+        - link "06 69 05 89 19" [ref=e12] [cursor=pointer]:
+          - /url: tel:+33669058919
+  - main [ref=e13]:
+    - generic [ref=e15]:
+      - generic [ref=e16]:
+        - generic [ref=e17]:
+          - paragraph [ref=e18]: Contact
+          - heading "Le plus simple est de nous appeler directement." [level=2] [ref=e19]
+          - paragraph [ref=e20]: Si vous préférez laisser une demande, le formulaire ci-contre reste disponible pour organiser un premier échange.
+        - generic [ref=e21]:
+          - generic [ref=e22]:
+            - img [ref=e23]
+            - paragraph [ref=e27]: Téléphone direct
+          - link "06 69 05 89 19" [ref=e28] [cursor=pointer]:
+            - /url: tel:+33669058919
+          - paragraph [ref=e29]: Nice · Alpes-Maritimes
+      - generic [ref=e30]:
+        - generic [ref=e31]:
+          - generic [ref=e32]:
+            - paragraph [ref=e33]: Demande de rappel
+            - heading "Parler à Riviera Compagnie" [level=3] [ref=e34]
+          - link "06 69 05 89 19" [ref=e35] [cursor=pointer]:
+            - /url: tel:+33669058919
+            - img [ref=e36]
+            - text: 06 69 05 89 19
+        - generic [ref=e40]:
+          - generic [ref=e41]:
+            - generic [ref=e42]: Nom
+            - textbox "Nom" [ref=e43]:
+              - /placeholder: Votre nom
+          - generic [ref=e44]:
+            - generic [ref=e45]: Téléphone
+            - textbox "Téléphone" [ref=e46]:
+              - /placeholder: 06 00 00 00 00
+          - generic [ref=e47]:
+            - generic [ref=e48]: E-mail
+            - textbox "E-mail" [ref=e49]:
+              - /placeholder: Facultatif
+          - generic [ref=e50]:
+            - generic [ref=e51]: Besoin principal
+            - combobox "Besoin principal" [ref=e52]:
+              - option "Choisir un service" [selected]
+              - option "Aide à domicile au quotidien"
+              - option "Dame de compagnie et présence relationnelle"
+              - option "Aide ménagère à domicile"
+              - option "Présence de nuit"
+        - generic [ref=e53]:
+          - generic [ref=e54]: Créneau de rappel souhaité
+          - combobox "Créneau de rappel souhaité" [ref=e55]:
+            - option "Choisir un créneau" [selected]
+            - option "De 9h à 12h"
+            - option "De 12h à 14h"
+            - option "De 14h à 18h"
+            - option "Après 18h"
+        - generic [ref=e56]:
+          - generic [ref=e57]: Message
+          - textbox "Message" [ref=e58]:
+            - /placeholder: Décrivez brièvement le contexte, la ville concernée et l'urgence éventuelle.
+        - generic [ref=e59]:
+          - checkbox "J'accepte que mes informations soient utilisées pour être recontacté(e) au sujet de ma demande. Voir la politique de confidentialité." [ref=e60]
+          - generic [ref=e61]:
+            - text: J'accepte que mes informations soient utilisées pour être recontacté(e) au sujet de ma demande. Voir la
+            - link "politique de confidentialité" [ref=e62] [cursor=pointer]:
+              - /url: /politique-confidentialite
+            - text: .
+        - generic [ref=e63]:
+          - paragraph [ref=e64]:
+            - text: "Le téléphone reste le plus rapide :"
+            - link "06 69 05 89 19" [ref=e65] [cursor=pointer]:
+              - /url: tel:+33669058919
+          - button "Envoyer la demande" [ref=e66]:
+            - text: Envoyer la demande
+            - img [ref=e67]
+  - contentinfo [ref=e70]:
+    - generic [ref=e71]:
+      - generic [ref=e72]:
+        - paragraph [ref=e73]: Riviera Compagnie
+        - paragraph [ref=e74]: Riviera Compagnie accompagne les seniors et leurs proches à Nice avec une aide à domicile humaine, souple et réactive.
+        - generic [ref=e75]:
+          - link "06 69 05 89 19" [ref=e76] [cursor=pointer]:
+            - /url: tel:+33669058919
+          - link "Nous contacter" [ref=e77] [cursor=pointer]:
+            - /url: /contact
+      - generic [ref=e78]:
+        - paragraph [ref=e79]: Services
+        - list [ref=e80]:
+          - listitem [ref=e81]:
+            - link "Aide à domicile au quotidien" [ref=e82] [cursor=pointer]:
+              - /url: /services/aide-a-domicile-personnes-agees
+          - listitem [ref=e83]:
+            - link "Dame de compagnie et présence relationnelle" [ref=e84] [cursor=pointer]:
+              - /url: /services/dame-de-compagnie
+          - listitem [ref=e85]:
+            - link "Aide ménagère à domicile" [ref=e86] [cursor=pointer]:
+              - /url: /services/aide-menagere-a-domicile
+          - listitem [ref=e87]:
+            - link "Présence de nuit" [ref=e88] [cursor=pointer]:
+              - /url: /services/presence-de-nuit
+      - generic [ref=e89]:
+        - paragraph [ref=e90]: Zones desservies
+        - list [ref=e91]:
+          - listitem [ref=e92]:
+            - link "Antibes" [ref=e93] [cursor=pointer]:
+              - /url: /secteurs/antibes
+          - listitem [ref=e94]:
+            - link "Cagnes-sur-Mer" [ref=e95] [cursor=pointer]:
+              - /url: /secteurs/cagnes-sur-mer
+          - listitem [ref=e96]:
+            - link "Saint-Laurent-du-Var" [ref=e97] [cursor=pointer]:
+              - /url: /secteurs/saint-laurent-du-var
+          - listitem [ref=e98]:
+            - link "Mentions légales" [ref=e99] [cursor=pointer]:
+              - /url: /mentions-legales
+          - listitem [ref=e100]:
+            - link "Politique de confidentialité" [ref=e101] [cursor=pointer]:
+              - /url: /politique-confidentialite

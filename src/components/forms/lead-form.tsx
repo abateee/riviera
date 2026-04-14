@@ -63,7 +63,7 @@ export function LeadForm({
       id="formulaire"
       action="/api/leads"
       method="post"
-      className="grid scroll-mt-28 gap-4 rounded-[2rem] border border-white/60 bg-white/90 p-6 shadow-[0_30px_90px_-45px_rgba(15,23,42,0.65)] backdrop-blur md:p-8"
+      className="grid scroll-mt-28 gap-4 rounded-[2rem] border border-white/70 bg-white/90 p-6 shadow-[0_30px_90px_-45px_rgba(67,87,66,0.32)] backdrop-blur md:p-8"
     >
       <input type="hidden" name="pagePath" value={pagePath} />
       <input type="hidden" name="redirectTo" value={redirectTo} />
@@ -104,47 +104,47 @@ export function LeadForm({
       </div>
 
       <div className={`grid gap-4 ${compact ? "lg:grid-cols-2" : ""}`}>
-        <label className="grid gap-2">
+        <label className="grid min-w-0 gap-2">
           <span className="text-sm font-medium text-slate-700">Nom</span>
           <input
             name="name"
             required
             autoComplete="name"
-            className="min-h-12 rounded-2xl border border-slate-200 bg-white px-4 text-slate-900 outline-none transition focus:border-brand-500"
+            className="min-h-12 w-full rounded-2xl border border-slate-200 bg-white px-4 text-slate-900 outline-none transition focus:border-brand-500"
             placeholder="Votre nom"
           />
         </label>
 
-        <label className="grid gap-2">
+        <label className="grid min-w-0 gap-2">
           <span className="text-sm font-medium text-slate-700">Téléphone</span>
           <input
             name="phone"
             type="tel"
             required
             autoComplete="tel"
-            className="min-h-12 rounded-2xl border border-slate-200 bg-white px-4 text-slate-900 outline-none transition focus:border-brand-500"
+            className="min-h-12 w-full rounded-2xl border border-slate-200 bg-white px-4 text-slate-900 outline-none transition focus:border-brand-500"
             placeholder="06 00 00 00 00"
           />
         </label>
 
-        <label className="grid gap-2">
+        <label className="grid min-w-0 gap-2">
           <span className="text-sm font-medium text-slate-700">E-mail</span>
           <input
             name="email"
             type="email"
             autoComplete="email"
-            className="min-h-12 rounded-2xl border border-slate-200 bg-white px-4 text-slate-900 outline-none transition focus:border-brand-500"
+            className="min-h-12 w-full rounded-2xl border border-slate-200 bg-white px-4 text-slate-900 outline-none transition focus:border-brand-500"
             placeholder="Facultatif"
           />
         </label>
 
-        <label className="grid gap-2">
+        <label className="grid min-w-0 gap-2">
           <span className="text-sm font-medium text-slate-700">
             Besoin principal
           </span>
           <select
             name="serviceInterest"
-            className="min-h-12 rounded-2xl border border-slate-200 bg-white px-4 text-slate-900 outline-none transition focus:border-brand-500"
+            className="min-h-12 w-full rounded-2xl border border-slate-200 bg-white px-4 text-slate-900 outline-none transition focus:border-brand-500"
             defaultValue=""
           >
             <option value="">Choisir un service</option>
@@ -157,13 +157,13 @@ export function LeadForm({
         </label>
       </div>
 
-      <label className="grid gap-2">
+      <label className="grid min-w-0 gap-2">
         <span className="text-sm font-medium text-slate-700">
           Créneau de rappel souhaité
         </span>
         <select
           name="preferredCallbackSlot"
-          className="min-h-12 rounded-2xl border border-slate-200 bg-white px-4 text-slate-900 outline-none transition focus:border-brand-500"
+          className="min-h-12 w-full rounded-2xl border border-slate-200 bg-white px-4 text-slate-900 outline-none transition focus:border-brand-500"
           defaultValue=""
         >
           <option value="">Choisir un créneau</option>
@@ -175,12 +175,12 @@ export function LeadForm({
         </select>
       </label>
 
-      <label className="grid gap-2">
+      <label className="grid min-w-0 gap-2">
         <span className="text-sm font-medium text-slate-700">Message</span>
         <textarea
           name="message"
           rows={compact ? 4 : 5}
-          className="rounded-[1.5rem] border border-slate-200 bg-white px-4 py-3 text-slate-900 outline-none transition focus:border-brand-500"
+          className="w-full rounded-[1.5rem] border border-slate-200 bg-white px-4 py-3 text-slate-900 outline-none transition focus:border-brand-500"
           placeholder="Décrivez brièvement le contexte, la ville concernée et l'urgence éventuelle."
         />
       </label>
