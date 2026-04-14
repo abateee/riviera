@@ -113,6 +113,44 @@ select {
   box-shadow: 0 25px 70px -45px rgba(67, 87, 66, 0.28);
 }
 
+.hero-carousel-slide {
+  opacity: 0;
+  animation: hero-carousel-fade 24s infinite ease-in-out;
+  transform: scale(1);
+  will-change: opacity, transform;
+}
+
+@keyframes hero-carousel-fade {
+  0%,
+  27% {
+    opacity: 1;
+    transform: scale(1.03);
+  }
+
+  33%,
+  94% {
+    opacity: 0;
+    transform: scale(1.08);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1.03);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-carousel-slide {
+    animation: none;
+    opacity: 0;
+    transform: none;
+  }
+
+  .hero-carousel-slide:first-child {
+    opacity: 1;
+  }
+}
+
 .bg-slate-50 {
   background-color: #f2f4ef !important;
 }

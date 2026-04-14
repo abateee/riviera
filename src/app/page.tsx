@@ -9,6 +9,7 @@ import {
   Star,
 } from "lucide-react";
 
+import { HeroBackgroundCarousel } from "@/components/home/hero-background-carousel";
 import { LeadForm } from "@/components/forms/lead-form";
 import { JsonLd } from "@/components/seo/json-ld";
 import { SectionHeading } from "@/components/sections/section-heading";
@@ -69,8 +70,9 @@ export default async function HomePage({ searchParams }: HomePageProps) {
       />
       <JsonLd data={buildFaqJsonLd(homePage.faq)} />
 
-      <section className="relative overflow-hidden pb-20 pt-14 sm:pb-24 sm:pt-20">
-        <div className="section-shell grid gap-10 lg:grid-cols-[1.08fr_0.92fr] lg:items-center">
+      <section className="relative z-10 isolate overflow-hidden pb-20 pt-14 sm:pb-24 sm:pt-20">
+        <HeroBackgroundCarousel />
+        <div className="section-shell relative z-10 grid gap-10 lg:grid-cols-[1.08fr_0.92fr] lg:items-center">
           <div className="relative">
             <div className="inline-flex items-center gap-2 rounded-full border border-brand-100 bg-brand-50 px-4 py-2 text-xs font-semibold uppercase tracking-[0.24em] text-brand-700">
               {homePage.heroEyebrow}
